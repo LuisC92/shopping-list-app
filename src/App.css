@@ -27,6 +27,16 @@
 .App-link {
   color: #61dafb;
 }
+h1{
+  margin-top: 30px;
+}
+.container-main{
+  /* display: flex; */
+  justify-content:center;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +45,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar-row-line{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  margin-bottom:30px;
+}
+
+.navbar-row-line ul{
+  width: 100%;
+  flex-direction: row;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+.navbar-row-line li{
+  margin:20px;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+.card a:link {
+  text-decoration: none;
+  color: #000;
+}
+.navbar-nav a:link {
+  text-decoration: none;
+}
+.navbar-nav a {
+  color: #fff;
+}
+
+.form-group input{
+  width: 100%;
 }
